@@ -22,8 +22,14 @@ From the command line fork and clone
 
 ```gh repo fork https://github.com/PortsMaster/PortMaster-New.git --clone```
 
+### After forking the repo
 
-## After cloning the repo
+After forking the repo, go into the settings for the fork and disable github actions for your fork. 
+
+Actions can be found on the github page under Settings for your forked repo.
+
+
+### After cloning the repo
 
 
 First we always do
@@ -32,7 +38,7 @@ First we always do
 
 and make sure you're up to date in your repo
 
-## Create a branch for you port
+### Create a branch for you port
 
 Then we're going to make seperate workspace (branch) for each port
 
@@ -41,7 +47,7 @@ Then we're going to make seperate workspace (branch) for each port
 After this you are now in a seperate space (branch) . The -b tells it to create a new one. If you want to continue an existing PR do not use the -b
 Add your port files to roms/ports/<your port name>
 
-## Check the added port files 
+### Check the added port files 
 
 After you finished adding the files do:-
 
@@ -51,7 +57,7 @@ This check will tell you if youre files are in order.
 So correctly named, in the wrong folder etc. If this comes up with sucess.
 cd into your current ports folder
 
-## The git commit process
+### The git commit process
 
 cd into the folder ports/your port
 
