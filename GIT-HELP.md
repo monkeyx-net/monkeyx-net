@@ -53,7 +53,7 @@ cd into your current ports folder
 
 ## The git commit process
 
-```git add . ```
+```git add .```
 
 This marks the changed files into adding to github.
 
@@ -64,7 +64,7 @@ Next
 Before you enter a message, check the file list that is generated in the textfile for anything out of order. Like a 2nd port or something.
 After you are confident nothing is wrong. Add your commit message like : New Port: Portname
 
-```git commit -m "New PortL Portname```
+```git commit -m "New Port Portname"```
 
 Next
 
@@ -77,7 +77,7 @@ Well done you made your first push and can now create the Pull Request
 NOW IMPORTANT:
 If you want to work on a 2nd PR You have to switch back to main or into another branch. 
 
-```git checkout  main ``` 
+```git checkout main``` 
 
 to get back to the main repo
 
