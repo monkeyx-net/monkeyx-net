@@ -53,6 +53,8 @@ cd into your current ports folder
 
 ## The git commit process
 
+cd into the ports/<your port name> folder
+
 ```git add .```
 
 This marks the changed files into adding to github.
