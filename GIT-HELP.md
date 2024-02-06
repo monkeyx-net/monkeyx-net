@@ -35,14 +35,16 @@ and make sure you're up to date in your repo
 ## Create a branch for you port
 
 Then we're going to make seperate workspace (branch) for each port
+
 ```git checkout -b portname```
 
 After this you are now in a seperate space (branch) . The -b tells it to create a new one. If you want to continue an existing PR do not use the -b
 Add your port files to roms/ports/<your port name>
 
-## check the added port files (Ensure tools installed see https://portmaster.games/packaging.html)
+## Check the added port files 
 
 After you finished adding the files do:-
+
 ```python3 tools/build_release.py --do-check```
 
 This check will tell you if youre files are in order.
@@ -52,25 +54,32 @@ cd into your current ports folder
 ## The git commit process
 
 ```git add . ```
+
 This marks the changed files into adding to github.
+
 Next
+
 ```git commit```
+
 Before you enter a message, check the file list that is generated in the textfile for anything out of order. Like a 2nd port or something.
 After you are confident nothing is wrong. Add your commit message like : New Port: Portname
+
 ```git commit -m "New PortL Portname```
 
 Next
 
-
 ```git push```
+
 It'll tell you to push to the branch origin just copy the command it'll tell you.
 
 Well done you made your first push and can now create the Pull Request
 
 NOW IMPORTANT:
 If you want to work on a 2nd PR You have to switch back to main or into another branch. 
-```git checkout  main ``` to get back to the main repo
-or ```git checkout otherbranchname``` 
+
+```git checkout  main ``` 
+
+to get back to the main repo
 
 Any changes made in the branches will automatically get added to the correspondigng PRs once you push.
 
