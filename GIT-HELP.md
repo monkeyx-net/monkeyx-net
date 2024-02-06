@@ -16,18 +16,20 @@ Clone the fork from website via this link https://github.com/PortsMaster/PortMas
 
 Clone you fork to your local machine if forked via the web interface
 
-```git clone https://github.com/PortsMaster/PortMaster-New.git``
+```git clone https://github.com/PortsMaster/PortMaster-New.git```
 
 From the command line fork and clone
-gh repo fork https://github.com/PortsMaster/PortMaster-New.git --clone
 
+```gh repo fork https://github.com/PortsMaster/PortMaster-New.git --clone```
 
 
 ## After cloning the repo
 
 
 First we always do
-```  git pull``` 
+
+```git pull``` 
+
 and make sure you're up to date in your repo
 
 ## Create a branch for you port
@@ -47,7 +49,7 @@ This check will tell you if youre files are in order.
 So correctly named, in the wrong folder etc. If this comes up with sucess.
 cd into your current ports folder
 
-## The git process
+## The git commit process
 
 ```git add . ```
 This marks the changed files into adding to github.
