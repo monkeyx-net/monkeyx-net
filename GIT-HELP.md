@@ -11,8 +11,7 @@ You also need to install the git tools (gh-cli is a separate install for linux)
 
 ### Create a fork of the Portmaster-New repository
 
-Clone the fork from website via this link
-```https://github.com/PortsMaster/PortMaster-New/fork```
+Clone the fork from website via this link https://github.com/PortsMaster/PortMaster-New/fork
 
 
 Clone you fork to your local machine if forked via the web interface
