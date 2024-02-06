@@ -8,34 +8,47 @@ Starting with the obvious. You need a github account and git hub personal access
 
 You also need to install the git tools (gh-cli is a separate install for linux)
 
+
+### Create a fork of the Portmaster-New repository
+
 Clone the fork from website via this link
 ```https://github.com/PortsMaster/PortMaster-New/fork```
+
+
+Clone you fork to your local machine if forked via the web interface
+
+```git clone https://github.com/PortsMaster/PortMaster-New.git``
 
 From the command line fork and clone
 gh repo fork https://github.com/PortsMaster/PortMaster-New.git --clone
 
 
-Clone you fork to your local machine if forked via the web interface
 
-git clone https://github.com/PortsMaster/PortMaster-New.git
-
-After cloning the repo
+## After cloning the repo
 
 
 First we always do
 ```  git pull``` 
 and make sure you're up to date in your repo
 
+## Create a branch for you port
+
 Then we're going to make seperate workspace (branch) for each port
 ```git checkout -b portname```
+
 After this you are now in a seperate space (branch) . The -b tells it to create a new one. If you want to continue an existing PR do not use the -b
-Add your port files.
-After you finished adding the files
-do
+Add your port files to roms/ports/<your port name>
+
+## check the added port files (Ensure tools installed see https://portmaster.games/packaging.html)
+
+After you finished adding the files do:-
 ```python3 tools/build_release.py --do-check```
 
-The check will tell you if youre files are in order.
+This check will tell you if youre files are in order.
 So correctly named, in the wrong folder etc. If this comes up with sucess.
+cd into your current ports folder
+
+## The git process
 
 ```git add . ```
 This marks the changed files into adding to github.
