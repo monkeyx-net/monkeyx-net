@@ -53,7 +53,7 @@ cd into your current ports folder
 
 ## The git commit process
 
-cd into the ports/<your port name> folder
+cd into the ports/folder
 
 ```git add .```
 
