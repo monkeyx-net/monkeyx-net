@@ -32,9 +32,13 @@ Actions can be found on the github page under Settings for your forked repo.
 ### After cloning the repo
 
 
-First we always do
+First we always do to fetch latest content
 
 ```git pull``` 
+
+Update tools after updating
+
+```tools/prepare_repo.sh```
 
 and make sure you're up to date in your repo
 
